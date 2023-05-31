@@ -9,6 +9,7 @@ onMounted(() => {
   triggerEvent();
 });
 
+// Generate a random number of 10 digits
 const generateRandomId = (): number => {
   const min = 1000000000;
   const max = 9999999999;
